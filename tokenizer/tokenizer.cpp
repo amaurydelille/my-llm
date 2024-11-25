@@ -65,10 +65,6 @@ vector<string> Tokenizer::split(string& str) {
     return tokens;
 }
 
-vector<float> Tokenizer::skipGram(vector<string> tokens) {
-
-}
-
 vector<string> Tokenizer::tokenize(string &text) {
     return split(text);
 }
